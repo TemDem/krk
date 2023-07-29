@@ -1278,11 +1278,6 @@ textarea.input {
     align-items: stretch;
   }
 }
-@media (min-width: 29.99875em) {
-  .form-calculation__item {
-    flex: 0 1 10.9375rem;
-  }
-}
 .form-calculation__title {
   padding-bottom: 1.5625rem;
 }
