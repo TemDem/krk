@@ -1196,27 +1196,22 @@ textarea.input {
 .main-slide__images img {
   max-width: 100%;
 }
-@media (max-width: 47.99875em) {
-  .main-slide__images img {
-    max-width: 50%;
-  }
-}
-.main-slide__images img:nth-child(2) {
+.main-slide__images img._abs {
   transform: translate(-300px, -30px);
 }
 @media (max-width: 82.5em) {
-  .main-slide__images img:nth-child(2) {
+  .main-slide__images img._abs {
     transform: translate(-200px, -20px);
   }
 }
 @media (max-width: 61.99875em) {
-  .main-slide__images img:nth-child(2) {
+  .main-slide__images img._abs {
     transform: translate(-70px, -10px);
   }
 }
 @media (max-width: 47.99875em) {
-  .main-slide__images img:nth-child(2) {
-    transform: translate(10px, 0);
+  .main-slide__images img._abs {
+    transform: translate(5px, 0);
   }
 }
 @media (max-width: 47.99875em) {
